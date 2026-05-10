@@ -1,12 +1,14 @@
 class Solution(object):
     def missingNumber(self, nums):
-        res=len(nums)
+        nums.sort()
 
         for i in range(len(nums)):
-            res+=(i-nums[i])
+            if i!=nums[i]:
+                return i
 
-        return res
-       
+        if len(nums) not in nums:
+            return len(nums)
+
 
         
         
