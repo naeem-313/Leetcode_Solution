@@ -1,8 +1,9 @@
 class Solution(object):
     def hammingWeight(self, n):
         c=bin(n).count('1')
-        
+
         return c
+    
         
 
 # Synced seamlessly with LeetHub Pro
