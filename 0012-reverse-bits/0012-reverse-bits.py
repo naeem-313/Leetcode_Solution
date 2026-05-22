@@ -10,15 +10,6 @@ class Solution(object):
         c = b[::-1]
         x = int(c, 2)
         return x
-        
-        
-        
-        
-        
-        
-
-       
-        
 
 # Synced seamlessly with LeetHub Pro
 # Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
