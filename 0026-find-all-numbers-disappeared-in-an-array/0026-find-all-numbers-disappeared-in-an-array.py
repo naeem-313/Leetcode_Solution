@@ -1,6 +1,5 @@
 class Solution(object):
     def findDisappearedNumbers(self, nums):
-       
         n=len(nums)
         nums=set(nums)
         missing=[]
@@ -14,11 +13,6 @@ class Solution(object):
 
 
         return missing
-       
-            
-            
-
-       
         
 
 # Synced seamlessly with LeetHub Pro
