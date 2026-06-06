@@ -17,10 +17,7 @@ class Solution(object):
         else:
             list2.next = self.mergeTwoLists(list1, list2.next)
             return list2
-
-
        
-        
 
 # Synced seamlessly with LeetHub Pro
 # Pro features: https://bit.ly/leethubpro | Free version: https://bit.ly/leethubv4
